@@ -2,6 +2,7 @@ function start() {
 	document.head.innerHTML += "<title>Made By PINARAX</title>";
 	document.head.innerHTML += "<link rel='icon' href='https://pinarax.group/favicon.ico' type='image/gif' sizes='16x16'>";
 	document.head.innerHTML += "<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>";
+	document.head.innerHTML += "<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' type='text/javascript'></script>";
 	document.head.innerHTML += "<script src='https://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>";
 	document.head.innerHTML += "<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>";
 	document.body.innerHTML += "<div class='container-fluid' style='width: 665px; padding-top: 50px;'><div class='panel panel-default'><div class='panel-heading' style='text-align: left;'><span class='btn btn-default btn-xs' id='pcreate' onclick='create()' style='width: 150px;'><b>Create Email</b></span><span class='btn btn-danger btn-xs' onclick='reset()' style='width: 150px; float: right;'><b>Reset</b></span></div><div class='panel-body' id='wadaeemail' style='display: none;'>";
