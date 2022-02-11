@@ -21,12 +21,12 @@ function create() {
 	document.getElementById("pcreate").setAttribute("disabled", "");
 	var cmail = "https://m.kuku.lu/index.php?";
 	$.get(cmail, {
-		"action": "addMailAddrByAuto",
+		"action": "addMailAddrByOnetime",
 		"nopost": "1",
 		"by_system": "1",
-		"UID_enc": "wkbynVoskWQ5jpFYw1W9C0T2l7XPGB%2BmBUBhiwqJukmyyXRrSy2vNwRalCbhfQiH",
-		"csrf_token_check": "d68ba26270c1b52bae7b2d911fe8300f",
-		"csrf_subtoken_check": "a3d288acf2f8b10f1675a3d877d69b2d"
+		"UID_enc": "MAmZjUzbW%2F5%2FmTtuAIIFHuKI1VXFBNN53JgzH%2BVuqqTAdH96TI%2FMTo4GWko3pNyN",
+		"csrf_token_check": "4748e4189dad43b7d22e320a19ed9437&csrf_subtoken_check=22e98cfb013fc1b87afd4c93c79d77ca",
+		"csrf_subtoken_check": "03AGdBq25pzHghIwRsC5EeN86agCNFlPuqcZKq1od2CroRIhIRgeafKZ7uyoiySRUklgQYIeKja5zJQ55AAsBI30l6w-b9-lsDnKiUxrKKCrtmMVL2VzGmcB6SNXSkxDAtOgnJaYS3aqa7kutDE1JBM-6kGJlFZIoDJ5QuxuJkey6OAMDZWni9PWvJnnyyH3n9f65qa_FNAWMaOUh01fdZ0coLmkb95SqIuCoj0682kIVM6W-kV0FvxGLzTTgVSvQKzM005_poiHdwFHUzdrq0o6aSbh0xZMCA7CBt20E0jcXuxIoINOEuqCwX5DcnFcfuhCdRH5rNHn3dZt1yjGWAt9_i0JSgRyIIo4dDpmiepBWT0FwJKs9R7ofHHVtBaI2XMezcHHIAk0wk-1qp0lO1V1gASAZxUYCLWmBglqdyCs3mtIOTqmQwnQPEIhTu1-cNE35L232zOTXd"
 
 
 
